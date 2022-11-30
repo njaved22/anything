@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+    /* CSS GOES HERE */ 
+    background-color: sandybrown ;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:beige;
+}
+
+h1{font-family:'Abril Fatface', cursive;
+text-align: center; 
+letter-spacing: 5px;
+color: saddlebrown;
+          }
+
+p{
+    width: 40%;
+    margin: 0 auto;
+    text-align:center;
+}   
+
+img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}       
+
+/*in depth styling of links*/
+/* love and hate */
+a:link, 
+a:visited {
+color: saddlebrown;
+text-decoration: none;
+font-family: 'Abril Fatface', cursive;
+margin: 0 auto;
+letter-spacing: 5px;
+}
+
+a:hover, 
+a:active {
+
+    color: saddlebrown;
+    background-color: none;
+}
+
+.party {
+    margin-bottom: 40px;
+}
